@@ -1,3 +1,13 @@
+# Make sure to have the server side running in CoppeliaSim: 
+# in a child script of a CoppeliaSim scene, add following command
+# to be executed just once, at simulation start:
+#
+# simRemoteApi.start(19999)
+#
+# then start simulation, and run this program.
+#
+# created by: Jiawei Xu
+
 try:
     import sim
     import numpy as np
