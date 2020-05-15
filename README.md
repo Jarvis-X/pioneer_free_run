@@ -2,7 +2,8 @@
 A simple demonstration using a pioneer robot to run in a CoppeliaSim scene freely while avoiding obstacles and trying to run through the green tiles.
 
 ## How to run the demonstration
-1. start the simulation (server side) in CoppeliaSim
+1. run CoppeliaSim
+2. load the scene pioneer_sim.ttt and start the simulation server
 2. excecute simulation_main.py
 
 ## Troubleshoot
